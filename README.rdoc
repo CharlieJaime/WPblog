@@ -1,28 +1,15 @@
 == README
+This is the first part of a three part series to replicate popular web applications; Wordpress blog, Pininterest, and Evernote.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Part one: Wordpress Blog
+The main point to this project was to simply help me familiarize with common used steps to create a ruby on rails and produce a simple web app similar to Wordpress blog. This was broken into a couple of steps:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. Creating new Rails app and then a posts controller adding index and new functions to it.
+2. Generated post model and added create, show, and private params to controller
+3. Edited the index and show.html.erb pages and index in controller
+4. Added simple sass styling and structure 
+5. Added Validations to new posts
+6. Added edit and destroy functions to post controller
+7. Commented controller and functionality 
+8. Added Destroy to view and created a static about page
+9. Finally aded devise and users validations  
